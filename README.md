@@ -1,13 +1,83 @@
-# React + Vite
+# Contador React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un simple contador implementado con React que demuestra conceptos fundamentales como componentes, props, estados y estilizado modular.
 
-Currently, two official plugins are available:
+![Screenshot del Contador](https://via.placeholder.com/600x300.png?text=Contador+React)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
 
-## Expanding the ESLint configuration
+- Incremento y decremento del contador
+- Componentes modulares con separación de responsabilidades
+- Estilizado CSS específico para cada componente
+- Interfaz responsiva y centrada
+- Manejo dinámico del texto singular/plural ("time"/"times")
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# practica1
+## Estructura del Proyecto
+
+```
+contador-react/
+├── public/
+├── src/
+│   ├── App.jsx           # Componente principal con la lógica del contador
+│   ├── App.css           # Estilos para el componente App
+│   ├── ShowCount.jsx     # Componente hijo para mostrar el contador
+│   ├── ShowCount.css     # Estilos específicos para ShowCount
+│   ├── index.js          # Punto de entrada de la aplicación
+│   └── index.css         # Estilos globales
+├── package.json
+└── README.md
+```
+
+## Tecnologías Utilizadas
+
+- React 18
+- CSS3
+- JavaScript ES6+
+
+## Conceptos Implementados
+
+1. **Componentes de React**
+   - Componentes funcionales con responsabilidades bien definidas
+   - Comunicación entre componentes mediante props
+
+2. **Estados en React**
+   - Uso del hook `useState` para gestionar el valor del contador
+   - Actualización del estado mediante funciones controladas
+
+3. **Estilizado Modular**
+   - Archivos CSS separados para cada componente
+   - Técnicas avanzadas de centrado con flexbox
+
+4. **Condicionales en JSX**
+   - Lógica condicional para el texto singular/plural
+
+## Instalación y Ejecución
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/contador-react.git
+   cd contador-react
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+3. Inicia la aplicación en modo desarrollo:
+   ```bash
+   npm start
+   ```
+
+4. Abre [http://localhost:3000](http://localhost:3000) para verla en el navegador.
+
+## Aprendizajes Clave
+
+- La importancia de utilizar estados en React para manejar datos que cambian
+- Cómo pasar datos desde un componente padre a un componente hijo
+- Técnicas de estilizado para centrar elementos correctamente
+- Separación de componentes para mejor mantenimiento y reutilización
+
+
+
+Proyecto creado como práctica para aprendizaje de React.
