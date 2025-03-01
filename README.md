@@ -2,7 +2,9 @@
 
 Un simple contador implementado con React que demuestra conceptos fundamentales como componentes, props, estados y estilizado modular.
 
-![Screenshot del Contador](https://via.placeholder.com/600x300.png?text=Contador+React)
+![Screenshot 2025-03-01 at 7 26 09 PM](https://github.com/user-attachments/assets/a1439f82-569c-4daf-b631-5c79bd89ae55)
+
+
 
 ## Características
 
